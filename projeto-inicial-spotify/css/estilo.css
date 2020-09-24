@@ -1,0 +1,21 @@
+li.linhaV {
+    margin-top: 25px;
+    border-left: 1px solid white;
+    height: 17px;
+}
+.paddingNav {
+    padding: 12px 0;
+}
+
+.paddingLink {
+    padding: 20px 0px;
+    
+}
+.transparencia {
+    background: rgba(0, 0, 0, 0.5);
+}
+body {
+    background-image: url(../imagens/capa.png),
+                      url(../imagens/ruido.png),
+                      linear-gradient(50deg,#ff4169, #7c26f8)
+}

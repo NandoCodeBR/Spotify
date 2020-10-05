@@ -63,12 +63,35 @@ body {
     color: black;
 }
 
+/* Estrutura de conteúdos
+-----------------------------*/
+#servicos {
+    background-color: white;
+    padding: 20px 0px;
+}
+#servicos h2,h3 {
+    color:#7c25f8;
+}
+.albuns {
+    padding: 10px 0;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 3em;
+    letter-spacing: -0.04em;
+}
+h3 {
+    font-weight: 700;
+    font-size: 2em;
+    letter-spacing: -0.04em;
+}
+
 h1 {
     font-weight: 900;
     letter-spacing: -0.05em;
     color: white;
     margin-bottom: 50px;
-    
 }
 
 /* Extra small devices (portraist phones, less than 576px) */

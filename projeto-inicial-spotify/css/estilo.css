@@ -1,5 +1,6 @@
 html, body, #home {
     height: 100%;
+    overflow-x: hidden;
 }
 li.linhaV {
     margin-top: 28px;
@@ -75,6 +76,16 @@ body {
 .albuns {
     padding: 10px 0;
 }
+#recursos h2 {
+    color: white;
+}
+#recursos h3 {
+    color: #9bf0e1;
+}
+#recursos p {
+    color: white;
+    font-weight: bold;
+}
 
 h2 {
     font-weight: 700;
@@ -135,4 +146,12 @@ h1 {
     h1 {
     font-size: 7em;
     } 
+}
+
+/*Rotacionando imagens */
+.rotacionado {
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg); /*IE 9*/
+    -webkit-transform: rotate(30deg); /*Chrome, Safari, Opera*/
+    padding-left: 80px;
 }

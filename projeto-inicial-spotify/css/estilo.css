@@ -1,3 +1,5 @@
+/*Padrão para o corpo do site e navegação
+----------------------------------------------*/
 html, body, #home {
     height: 100%;
     overflow-x: hidden;
@@ -105,6 +107,9 @@ h1 {
     margin-bottom: 50px;
 }
 
+/*Definição para diversos tamanhos
+-----------------------------------*/
+
 /* Extra small devices (portraist phones, less than 576px) */
 @media (max-width: 575.99px) {
     h1 {
@@ -112,6 +117,7 @@ h1 {
     }
     .btn-custom {
         margin: 10px 15px;
+        font-size: 1em;
     }
 }
 
@@ -141,7 +147,7 @@ h1 {
     font-size: 6em;
     } 
 }
-
+/*Extra Large devices (1200px and up) */
 @media (min-width: 1200px) { 
     h1 {
     font-size: 7em;
@@ -154,4 +160,39 @@ h1 {
     -ms-transform: rotate(30deg); /*IE 9*/
     -webkit-transform: rotate(30deg); /*Chrome, Safari, Opera*/
     padding-left: 80px;
+}
+
+/*Rodapé*/
+footer {
+    background: black;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+footer h4 {
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+    color: white;
+    font-size: 0.8em;
+}
+footer .navbar-nav a:hover {
+    color: #9bf0e1
+}
+ul li a .fab {
+    font-size: 3em;
+    margin: 0 5px;
+    color: white;
+}
+ul li a .fab:hover {
+    color: #9bf0e1
+}
+footer ul {
+    list-style: none;
+}
+footer ul li {
+    float: right;
+    margin: 0px 5px;
 }

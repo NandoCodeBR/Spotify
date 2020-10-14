@@ -65,6 +65,15 @@ body {
     background: white;
     color: black;
 }
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+}
+.carousel-control-prev {
+    margin-left: 10%;
+}
+.carousel-control-next{
+    margin-right: 10%;
+}
 
 /* Estrutura de conteúdos
 -----------------------------*/

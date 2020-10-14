@@ -53,20 +53,40 @@
   </header>
   <!--Fim cabeçalho-->
 
-  <section id="home" class="d-flex">
+  <section id="home" class="d-flex"> <!--Section-->
     <div class="container align-self-center">
       <div class="row">
         <div class="col-md-12 capa">
-          <h1>Música para todos</h1>
-          <a href="" class="btn btn-custom btn-roxo btn-lg">
-            Aproveite o Spotify Free
-          </a>
-          <a href="" class="btn btn-custom btn-branco btn-lg">
-            Aproveite o Spotify Premium
-          </a>
+          <div id="carousel-spotify" class="carousel slide" data-ride="carousel"><!--Carousel-->
+            <div class="carousel-inner"> <!--Inner-->
+              <div class="carousel-item active"> <!--Primeiro item-->
+                <h1>Música para todos</h1>
+                <a href="" class="btn btn-custom btn-roxo btn-lg">
+                  Aproveite o Spotify Free
+                </a>
+                <a href="" class="btn btn-custom btn-branco btn-lg">
+                  Aproveite o Spotify Premium
+                </a>
+              </div><!--Primeiro item-->
+              <div class="carousel-item">
+                <h1>As melhores rádios</h1>
+                <a href="" class="btn btn-custom btn-branco btn-lg">
+                  <i class="fas fa-music"></i> Ouça agora
+                </a>
+              </div>
+            </div><!--Inner-->
+          </div><!--Carousel-->
         </div>
+        <a href="#carousel-spotify" class="carousel-control-prev" data-slide="prev">
+          <i class="fas fa-angle-left fa-3x"></i>
+        </a>
+        <a href="#carousel-spotify" class="carousel-control-next" data-slide="next">
+          <i class="fas fa-angle-right fa-3x"></i>
+        </a> <!--Fim controles-->
       </div>
-    </div>
+      
+    </div> <!--container-->
+    
   </section>
   <!--Fim Seção Home-->
 
@@ -94,9 +114,11 @@
         <div class="col-md-6">
           <h2>O que o spotify tem?</h2>
           <h3>Músicas</h3>
-          <p>O spotify tem milhões de músicas. Escute todos os seus artistas favoritos, descubra músicas novas e muito mais em um só lugar.</p>
+          <p>O spotify tem milhões de músicas. Escute todos os seus artistas favoritos, descubra músicas novas e muito
+            mais em um só lugar.</p>
           <h3>Playlists</h3>
-          <p>No Spotify você encontra uma playlist para cada momento. Todas feitas por fanáticos e especialistas por música.</p>
+          <p>No Spotify você encontra uma playlist para cada momento. Todas feitas por fanáticos e especialistas por
+            música.</p>
           <h3>Novos lançamentos</h3>
           <p>Escute os novos lançamentos de singles e álbuns da semana e veja o que está bombando no top 50.</p>
         </div>
@@ -106,28 +128,30 @@
 
   <section id="recursos">
     <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <h2 >Fácil</h1>
-        <h3>Buscar</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Fácil</h1>
+            <h3>Buscar
+          </h2>
           <p>Já sabe o que quer escutar? É só procurar e apertar o play.</p>
 
           <h3>Navegar</h3>
           <p>Veja os novos lançamentos, o que está bombando nas paradas e as melhores playlists para o seu momento.</p>
 
           <h3>Descobrir</h3>
-          <p>Curta músicas novas toda segunda-feira com uma playlist personalizada pra você. Ou relaxe e curta uma das rádios.</p>
-      </div>
-      <div class="col-md-8 imagens">
-        <div class="row rotacionado">
-          <div class="col-md-6">
-        <img src="imagens/iphone1.png" class="img-fluid d-none d-md-block">
+          <p>Curta músicas novas toda segunda-feira com uma playlist personalizada pra você. Ou relaxe e curta uma das
+            rádios.</p>
         </div>
-        <div class="col-md-6">
-        <img src="imagens/iphone2.png" class="img-fluid d-none d-md-block">
+        <div class="col-md-8 imagens">
+          <div class="row rotacionado">
+            <div class="col-md-6">
+              <img src="imagens/iphone1.png" class="img-fluid d-none d-md-block">
+            </div>
+            <div class="col-md-6">
+              <img src="imagens/iphone2.png" class="img-fluid d-none d-md-block">
+            </div>
+          </div>
         </div>
-        </div>
-      </div>
       </div>
     </div>
   </section>
@@ -165,15 +189,15 @@
         </div>
         <div class="col-md-4">
           <ul class=>
-            <li><a href="" >
-              <i class="fab fa-facebook-square"></i>
-            </a></li>
-            <li><a href="" >
-              <i class="fab fa-instagram"></i>
-            </a></li>
             <li><a href="">
-              <i class="fab fa-twitter-square"></i>
-            </a></li>
+                <i class="fab fa-facebook-square"></i>
+              </a></li>
+            <li><a href="">
+                <i class="fab fa-instagram"></i>
+              </a></li>
+            <li><a href="">
+                <i class="fab fa-twitter-square"></i>
+              </a></li>
           </ul>
         </div>
       </div>

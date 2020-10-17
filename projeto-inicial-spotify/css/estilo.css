@@ -21,10 +21,10 @@ li.linhaV {
     background: rgba(0, 0, 0, 0.5);
 }
 body {
-    background-image: url(../imagens/capa.png),
+    background: url(../imagens/capa.png),
                       url(../imagens/ruido.png),
-                      linear-gradient(50deg,#ff4169, #7c26f8);
-    background-attachment: fixed;
+                      linear-gradient(50deg,#ff4169, #7c26f8) fixed;
+    
     font-family: Helvetica, Arial, sans-serif; }
     .navbar-dark .navbar-nav .nav-item .nav-link{
         color: white;
@@ -77,6 +77,15 @@ body {
 
 /* Estrutura de conteúdos
 -----------------------------*/
+#suporte h1 {
+    
+        font-weight: bolder ;
+        letter-spacing: -0.1em;
+        color: white;
+        margin-bottom: 50px;
+        font-size: 1.5em;
+    
+}
 #servicos {
     background-color: white;
     padding: 20px 0px;
@@ -204,4 +213,30 @@ footer ul {
 footer ul li {
     float: right;
     margin: 0px 5px;
+}
+
+.suporte{
+    color: #d1d1d1;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+   
+}
+.suporteLink {
+    color: white;
+    font-weight: bold; 
+}
+.suporteLink:hover {
+    color: white;
+    text-decoration: none; 
+}
+.input-group-text {
+    background: white;
+    
+}
+input.form-control {
+    border-left: none;
+}
+span.input-group-text svg {
+    opacity: 0.5;
 }

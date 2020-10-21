@@ -20,6 +20,9 @@ li.linhaV {
 .transparencia {
     background: rgba(0, 0, 0, 0.5);
 }
+.transparenciaAjuda {
+    background-color: black;
+}
 body {
     background: url(../imagens/capa.png),
                       url(../imagens/ruido.png),
@@ -77,20 +80,24 @@ body {
 
 /* Estrutura de conteúdos
 -----------------------------*/
-#suporte h1 {
+#txtAjuda {
     
+    width: 67.5%;
+    margin-left: 17.5%;
+}
+#suporte  {
         font-weight: bolder ;
-        letter-spacing: -0.1em;
+        letter-spacing: -0.06em;
         color: white;
         margin-bottom: 50px;
-        font-size: 1.5em;
-    
+        font-size: 4em;
 }
+
 #servicos {
     background-color: white;
     padding: 20px 0px;
 }
-#servicos h2,h3 {
+#servicos h2, #servicos h3 {
     color:#7c25f8;
 }
 .albuns {
@@ -219,12 +226,14 @@ footer ul li {
     color: #d1d1d1;
     text-transform: uppercase;
     font-size: 0.8em;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.2em;
    
 }
 .suporteLink {
     color: white;
     font-weight: bold; 
+    font-size: 1em;
+    letter-spacing: 0.05em;
 }
 .suporteLink:hover {
     color: white;
@@ -239,4 +248,24 @@ input.form-control {
 }
 span.input-group-text svg {
     opacity: 0.5;
+}
+
+
+/*Estrutura personalizada de Ajuda.html*/
+.sessaoAjuda{
+    height: 65%;
+    width: auto;
+    background-image: url(../imagens/Background-bolha.jpeg);
+    background-repeat: no-repeat;
+}
+#segundoMenu {
+    background: white;
+}
+#segundoMenu .row {
+    padding-left: 10%;
+    padding-top: 5%;
+}
+h3.Subtitulo {
+    letter-spacing: 0.01em;
+    font-size: 1.5em;
 }
